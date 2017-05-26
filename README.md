@@ -1,7 +1,7 @@
 # vue-letter-avatar
 
 ## Introduction
-A elegant and easy to use letter avatar component for vue.js 2.0+
+An elegant and easy to use letter avatar component for vue.js 2.0+
 
 ## Install
 ```shell
@@ -33,7 +33,7 @@ Create avatar
 | Name    | Required | Type    | Default | Description            |
 | ---     | ---      | ---     | ---     | ---                    |
 | name    | true     | String  |         | the name of avatar     |
-| size    | false    | String  | 0       | the size of avatar     |
+| size    | false    | String  | 50      | the size of avatar    |
 | rounded | false    | Boolean | false   | if is a rounded avatar |
 
 ## Development
