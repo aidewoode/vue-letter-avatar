@@ -15,6 +15,8 @@ module.exports = function(env) {
     output: {
       path: __dirname + '/dist',
       filename: 'index.js',
+      library: 'VueLetterAvatar',
+      libraryTarget: 'umd'
     },
     devServer: {
       contentBase: __dirname + '/test',
