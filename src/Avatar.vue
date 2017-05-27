@@ -1,6 +1,6 @@
 <template>
 <svg :style='svgStyle'>
-  <text x='50%' y='50%' fill="white" text-anchor='middle' dominant-baseline='central' :style='textStyle'>
+  <text x='50%' y='50%' text-anchor='middle' dominant-baseline='central' :style='textStyle'>
     {{ avatarLetter }}
   </text>
 </svg>
@@ -43,6 +43,7 @@ export default {
       },
 
       textStyle: {
+        fill: 'rgba(255, 255, 255, .6)',
         fontFamily: "'Lucida Console', Monaco, monospace",
         fontSize: `${this.size * 0.65}`
       },
