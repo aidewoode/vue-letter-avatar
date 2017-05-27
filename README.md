@@ -1,5 +1,7 @@
 # vue-letter-avatar
 
+![demo](https://raw.github.com/aidewoode/vue-letter-avatar/master/test/demo.png)
+
 ## Introduction
 An elegant and easy to use letter avatar component for vue.js 2.0+
 
