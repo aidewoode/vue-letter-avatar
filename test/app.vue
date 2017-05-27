@@ -1,11 +1,15 @@
 <template>
 <div>
-  <div>test</div>
-  <div v-for='letter of allLetter'>
-    <vue-letter-avatar size='20' :name='letter' :rounded=true />
-  </div>
+  <span v-for='letter of allLetter'>
+    <vue-letter-avatar class='letter-avatar' :name='letter' :rounded=true />
+  </span>
 </div>
 </template>
+<style scope>
+.letter-avatar {
+  margin: 10px;
+}
+</style>
 <script>
 export default {
   data() {

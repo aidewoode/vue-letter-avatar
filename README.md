@@ -33,7 +33,7 @@ Create avatar
 | Name    | Required | Type    | Default | Description            |
 | ---     | ---      | ---     | ---     | ---                    |
 | name    | true     | String  |         | the name of avatar     |
-| size    | false    | String  | 50      | the size of avatar    |
+| size    | false    | String  | 50      | the size of avatar     |
 | rounded | false    | Boolean | false   | if is a rounded avatar |
 
 ## Development
