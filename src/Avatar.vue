@@ -36,8 +36,8 @@ export default {
 
     return {
       svgStyle: {
-        width: this.size,
-        height: this.size,
+        width: `${this.size}px`,
+        height: `${this.size}px`,
         borderRadius: this.rounded ? '100%' : '0',
         background: backgroundColor
       },
@@ -45,7 +45,7 @@ export default {
       textStyle: {
         fill: 'rgba(255, 255, 255, .6)',
         fontFamily: "'Lucida Console', Monaco, monospace",
-        fontSize: `${this.size * 0.65}`
+        fontSize: `${this.size * 0.65}px`
       },
       avatarLetter
     };
