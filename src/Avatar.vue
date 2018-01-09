@@ -5,8 +5,6 @@
   </text>
 </svg>
 </template>
-<style>
-</style>
 <script>
 export default {
   props: {
@@ -43,7 +41,7 @@ export default {
       },
 
       textStyle: {
-        fill: 'rgba(255, 255, 255, .6)',
+        fill: 'rgba(255, 255, 255, .7)',
         fontFamily: "'Lucida Console', Monaco, monospace",
         fontSize: `${this.size * 0.65}px`
       },
