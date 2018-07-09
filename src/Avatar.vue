@@ -24,29 +24,31 @@ export default {
     }
   },
 
-  data() {
-    // use hsl to define the background color.
-    const avatarLetter = this.name[0].toUpperCase();
-    const letterIndex = avatarLetter.charCodeAt() - 64;
+  computed: {
+    avatarLetter() {
+      return this.name[0].toUpperCase();
+    },
+    svgStyle() {
+      // use hsl to define the background color.
+      const letterIndex = this.avatarLetter.charCodeAt() - 64;
 
-    const hue = (360 / 26) * letterIndex;
-    const backgroundColor = `hsl(${hue}, 68%, 48%)`;
+      const hue = (360 / 26) * letterIndex;
+      const backgroundColor = `hsl(${hue}, 68%, 48%)`;
 
-    return {
-      svgStyle: {
+      return {
         width: `${this.size}px`,
         height: `${this.size}px`,
         borderRadius: this.rounded ? '100%' : '0',
         background: backgroundColor
-      },
-
-      textStyle: {
+      };
+    },
+    textStyle() {
+      return {
         fill: 'rgba(255, 255, 255, .7)',
         fontFamily: "'Lucida Console', Monaco, monospace",
         fontSize: `${this.size * 0.65}px`
-      },
-      avatarLetter
-    };
+      };
+    }
   }
 };
 </script>
