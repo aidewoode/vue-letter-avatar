@@ -1,6 +1,6 @@
 {
   "name": "vue-letter-avatar",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "a simple and elegant letter avatar component for vue.js",
   "main": "dist/index.js",
   "author": "aidewoode <aidewoode@gmail.com>",
